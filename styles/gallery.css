@@ -111,7 +111,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (width < 80rem) {
   #gallery {
     padding: 1.5rem;
 

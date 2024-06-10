@@ -51,7 +51,7 @@ a {
   text-decoration: none;
 }
 
-@media (width <= 375px) {
+@media (width < 80rem) {
   :root {
     --text-xl: 2rem;
     --text-lg: 1.5rem;

@@ -99,7 +99,7 @@ footer {
   }
 }
 
-@media (width <= 375px) {
+@media (width < 80rem) {
   footer {
     padding: 3rem 1.5rem 1.5rem;
     flex-direction: column;
