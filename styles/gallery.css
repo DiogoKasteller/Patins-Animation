@@ -110,3 +110,28 @@
     transform: translateY(100%);
   }
 }
+
+@media (width <= 375px) {
+  #gallery {
+    padding: 1.5rem;
+
+    & .content {
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
+      & figure {
+        animation-range: 64px 192px;
+
+        &[data-delay] {
+          animation-range: 100px 220px;
+        }
+
+        & > img {
+          height: 16rem;
+        }
+      }
+    }
+  }
+}
